@@ -1,0 +1,12 @@
+/* 7.0
+{
+    "presets":["env","stage-0","react"], // 所有语法
+    "plugins": ["transform-runtime"] // 所有插件
+}
+*/
+
+/* 8.0 */
+{
+　　"presets": ["@babel/preset-env","@babel/preset-react"],
+　　"plugins": ["@babel/plugin-transform-runtime", "@babel/plugin-proposal-class-properties"]
+}
